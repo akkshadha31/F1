@@ -4,7 +4,7 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Team ID** | Aaditya Vyas |
+| **Author / Team ID** | Akkshadha Rathore |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Customer Journey Map |
 

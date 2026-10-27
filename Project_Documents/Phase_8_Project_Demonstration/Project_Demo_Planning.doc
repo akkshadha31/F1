@@ -24,7 +24,7 @@
 
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Aaditya Vyas</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Akkshadha Rathore</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Project Demo Planning Guide</td><td><strong>Duration:</strong> 15 Minutes</td></tr>
   </table>
@@ -35,7 +35,7 @@
 
 <h2>Demonstration Timeline (15 Minutes)</h2>
 <table>
-  <tr><th>Timeline</th><th>Demonstration Segment</th><th>Presenter Actions (Aaditya Vyas)</th></tr>
+  <tr><th>Timeline</th><th>Demonstration Segment</th><th>Presenter Actions (Akkshadha Rathore)</th></tr>
   <tr><td>00:00 – 01:30</td><td>Introduction & Architecture</td><td>Present telemetry challenges, dataset scope (6,464 outcomes), and 4-tier architecture.</td></tr>
   <tr><td>01:30 – 03:00</td><td>Hero & Start Sequence</td><td>Trigger F1 5-light start sequence, showcase count-up stats, explain split-tone skyline.</td></tr>
   <tr><td>03:00 – 05:00</td><td>Vector Track & Live Ticker</td><td>Demonstrate animated SVG racing circuit, DRS straight, and real-time facts marquee ticker.</td></tr>
@@ -46,7 +46,7 @@
 </table>
 
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Aaditya Vyas &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Akkshadha Rathore &bull; Phase Documentation
 </div>
 </body>
 </html>

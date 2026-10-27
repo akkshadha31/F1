@@ -4,7 +4,7 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Aaditya Vyas |
+| **Author / Team ID** | Akkshadha Rathore |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 4 Marks |
 

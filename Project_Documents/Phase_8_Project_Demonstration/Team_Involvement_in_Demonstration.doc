@@ -24,7 +24,7 @@
 
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Aaditya Vyas</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Akkshadha Rathore</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Team Involvement in Demonstration</td><td><strong>Structure:</strong> Individual Leadership</td></tr>
   </table>
@@ -33,18 +33,18 @@
 <h1>Team Involvement in Demonstration</h1>
 <p>Documenting presenter responsibilities, technical domain ownership, and presentation execution roles.</p>
 
-<h2>Presenter Role Mapping (Aaditya Vyas)</h2>
+<h2>Presenter Role Mapping (Akkshadha Rathore)</h2>
 <table>
   <tr><th>Functional Role</th><th>Owner</th><th>Operational & Demonstration Focus</th></tr>
-  <tr><td>Project Lead</td><td>Aaditya Vyas</td><td>Project introduction, domain motivation, problem articulation, and conclusion.</td></tr>
-  <tr><td>Data Engineer</td><td>Aaditya Vyas</td><td>Python ETL pipeline, Snowflake schema modeling, data cleansing, and JSON compilation.</td></tr>
-  <tr><td>BI Architect</td><td>Aaditya Vyas</td><td>Tableau Public dashboard design, story points navigation, and calculated measures.</td></tr>
-  <tr><td>Front-End Engineer</td><td>Aaditya Vyas</td><td>Black & Red F1 design system, SVG racing track, live data ticker, and driver filters.</td></tr>
-  <tr><td>QA & Defense Lead</td><td>Aaditya Vyas</td><td>Performance testing validation, cross-browser compatibility, and viva question defense.</td></tr>
+  <tr><td>Project Lead</td><td>Akkshadha Rathore</td><td>Project introduction, domain motivation, problem articulation, and conclusion.</td></tr>
+  <tr><td>Data Engineer</td><td>Akkshadha Rathore</td><td>Python ETL pipeline, Snowflake schema modeling, data cleansing, and JSON compilation.</td></tr>
+  <tr><td>BI Architect</td><td>Akkshadha Rathore</td><td>Tableau Public dashboard design, story points navigation, and calculated measures.</td></tr>
+  <tr><td>Front-End Engineer</td><td>Akkshadha Rathore</td><td>Black & Red F1 design system, SVG racing track, live data ticker, and driver filters.</td></tr>
+  <tr><td>QA & Defense Lead</td><td>Akkshadha Rathore</td><td>Performance testing validation, cross-browser compatibility, and viva question defense.</td></tr>
 </table>
 
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Aaditya Vyas &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Akkshadha Rathore &bull; Phase Documentation
 </div>
 </body>
 </html>

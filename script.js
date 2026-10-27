@@ -1,15 +1,19 @@
 /**
  * FORMULA 1 RACE INTELLIGENCE - INTERACTIVE JAVASCRIPT
  * Comprehensive Frontend Engine & Telemetry Visualizer
- * Developed by: Aaditya Vyas (Tableau: Aaditya vyas | GitHub: aditya01141)
+ * Developed by: Akkshadha Rathore (Tableau: Akkshadha rathore)
  */
 
 // =============================================================================
 // 1. TABLEAU PUBLIC EMBED CONFIGURATION
-// Configured for Aaditya Vyas's Published Tableau Workbooks
+// Configured for Akkshadha Rathore's Published Tableau Workbooks
 // =============================================================================
-const DASHBOARD_URL = "https://prod-in-a.online.tableau.com/#/site/en25cs3090011-095899494d/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:iid=1";
-const STORY_URL = "https://prod-in-a.online.tableau.com/#/site/en25cs3090011-095899494d/views/F1RACEStory/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess?:iid=3";
+const DASHBOARD_URL = (typeof window !== "undefined" && window.TABLEAU_CONFIG && window.TABLEAU_CONFIG.dashboardUrl) ?
+  window.TABLEAU_CONFIG.dashboardUrl :
+  "https://prod-in-a.online.tableau.com/#/site/en25cs3090015-97b3bc9161/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:iid=2";
+const STORY_URL = (typeof window !== "undefined" && window.TABLEAU_CONFIG && window.TABLEAU_CONFIG.storyUrl) ?
+  window.TABLEAU_CONFIG.storyUrl :
+  "https://prod-in-a.online.tableau.com/#/site/en25cs3090015-97b3bc9161/views/F1RACEStory/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess?:iid=1";
 
 // 9 Story scenes definitions for interactive chapter navigator
 const STORY_POINTS_DATA = [
@@ -100,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initNavbar();
   initCounters();
   initTableauEmbeds();
+  initEmbedTabs();
   initStoryNavigator();
   initLightbox();
   initCharts();
@@ -290,6 +295,11 @@ function formatTableauEmbedUrl(url) {
 }
 
 function initTableauEmbeds() {
+  const activeDashboardUrl = (typeof window !== "undefined" && window.TABLEAU_CONFIG && window.TABLEAU_CONFIG.dashboardUrl) ?
+    window.TABLEAU_CONFIG.dashboardUrl : DASHBOARD_URL;
+  const activeStoryUrl = (typeof window !== "undefined" && window.TABLEAU_CONFIG && window.TABLEAU_CONFIG.storyUrl) ?
+    window.TABLEAU_CONFIG.storyUrl : STORY_URL;
+
   const dashboardContainer = document.getElementById("tableauDashboardContainer");
   const storyContainer = document.getElementById("tableauStoryContainer");
   const fullscreenDashboardBtn = document.getElementById("openFullscreenDashboard");
@@ -297,54 +307,66 @@ function initTableauEmbeds() {
   const externalDashboardBtn = document.getElementById("openExternalDashboard");
   const externalStoryBtn = document.getElementById("openExternalStory");
 
-  // Check if live Tableau Dashboard URL is provided
-  const isRealDashboardUrl = DASHBOARD_URL && 
-    DASHBOARD_URL.startsWith("http") && 
-    !DASHBOARD_URL.includes("PASTE_YOUR_");
+  const isRealDashboardUrl = activeDashboardUrl && 
+    activeDashboardUrl.startsWith("http") && 
+    !activeDashboardUrl.includes("PASTE_YOUR_");
 
   if (isRealDashboardUrl && dashboardContainer) {
-    const embedUrl = formatTableauEmbedUrl(DASHBOARD_URL);
-    dashboardContainer.innerHTML = `
-      <div class="tableau-iframe-frame">
-        <iframe src="${embedUrl}"
-                width="100%" height="860" frameborder="0"
-                style="border:none; width:100%; min-height:860px; height:860px; display:block; background:#0a0a0f;"
-                allowfullscreen="true"
-                loading="lazy"
-                title="Formula 1 Race Intelligence Dashboard | Aaditya Vyas"></iframe>
-      </div>
-    `;
+    const existingIframe = dashboardContainer.querySelector("iframe");
+    const embedUrl = (typeof window !== "undefined" && window.TABLEAU_CONFIG && window.TABLEAU_CONFIG.dashboardEmbedUrl) ?
+      window.TABLEAU_CONFIG.dashboardEmbedUrl : formatTableauEmbedUrl(activeDashboardUrl);
+    if (!existingIframe || !existingIframe.src || existingIframe.src === "about:blank") {
+      dashboardContainer.innerHTML = `
+        <div class="tableau-iframe-frame">
+          <iframe src="${embedUrl}"
+                  width="100%" height="860" frameborder="0"
+                  style="border:none; width:100%; min-height:860px; height:860px; display:block; background:#0a0a0f;"
+                  allowfullscreen="true"
+                  loading="lazy"
+                  title="Formula 1 Race Intelligence Dashboard | Akkshadha Rathore"></iframe>
+        </div>
+      `;
+    }
   }
 
-  // Check if live Tableau Story URL is provided
-  const isRealStoryUrl = STORY_URL && 
-    STORY_URL.startsWith("http") && 
-    !STORY_URL.includes("PASTE_YOUR_");
+  const isRealStoryUrl = activeStoryUrl && 
+    activeStoryUrl.startsWith("http") && 
+    !activeStoryUrl.includes("PASTE_YOUR_");
 
   if (isRealStoryUrl && storyContainer) {
-    const embedUrl = formatTableauEmbedUrl(STORY_URL);
-    storyContainer.innerHTML = `
-      <div class="tableau-iframe-frame">
-        <iframe src="${embedUrl}"
-                width="100%" height="860" frameborder="0"
-                style="border:none; width:100%; min-height:860px; height:860px; display:block; background:#0a0a0f;"
-                allowfullscreen="true"
-                loading="lazy"
-                title="Formula 1 Race Intelligence Story | Aaditya Vyas"></iframe>
-      </div>
-    `;
+    const existingIframe = storyContainer.querySelector("iframe");
+    const embedUrl = (typeof window !== "undefined" && window.TABLEAU_CONFIG && window.TABLEAU_CONFIG.storyEmbedUrl) ?
+      window.TABLEAU_CONFIG.storyEmbedUrl : formatTableauEmbedUrl(activeStoryUrl);
+    if (!existingIframe || !existingIframe.src || existingIframe.src === "about:blank") {
+      storyContainer.innerHTML = `
+        <div class="tableau-iframe-frame">
+          <iframe src="${embedUrl}"
+                  width="100%" height="860" frameborder="0"
+                  style="border:none; width:100%; min-height:860px; height:860px; display:block; background:#0a0a0f;"
+                  allowfullscreen="true"
+                  loading="lazy"
+                  title="Formula 1 Race Intelligence Story | Akkshadha Rathore"></iframe>
+        </div>
+      `;
+    }
   }
 
-  // Fullscreen & External navigation listeners
+  if (externalDashboardBtn && isRealDashboardUrl) {
+    externalDashboardBtn.href = activeDashboardUrl;
+  }
+  if (externalStoryBtn && isRealStoryUrl) {
+    externalStoryBtn.href = activeStoryUrl;
+  }
+
   if (fullscreenDashboardBtn) {
     fullscreenDashboardBtn.addEventListener("click", () => {
       if (isRealDashboardUrl) {
-        window.open(DASHBOARD_URL, "_blank");
+        window.open(activeDashboardUrl, "_blank");
       } else {
         const viewport = document.getElementById("dashboardViewport");
         if (viewport) {
           if (!document.fullscreenElement) {
-            viewport.requestFullscreen().catch(() => window.open("assets/dashboard-preview.png", "_blank"));
+            viewport.requestFullscreen().catch(() => window.open(activeDashboardUrl, "_blank"));
           } else {
             document.exitFullscreen();
           }
@@ -356,22 +378,53 @@ function initTableauEmbeds() {
   if (fullscreenStoryBtn) {
     fullscreenStoryBtn.addEventListener("click", () => {
       if (isRealStoryUrl) {
-        window.open(STORY_URL, "_blank");
+        window.open(activeStoryUrl, "_blank");
+      } else {
+        const viewport = document.getElementById("storyViewport");
+        if (viewport) {
+          if (!document.fullscreenElement) {
+            viewport.requestFullscreen().catch(() => window.open(activeStoryUrl, "_blank"));
+          } else {
+            document.exitFullscreen();
+          }
+        }
       }
     });
   }
+}
 
-  if (externalDashboardBtn) {
-    externalDashboardBtn.addEventListener("click", () => {
-      if (isRealDashboardUrl) window.open(DASHBOARD_URL, "_blank");
-    });
-  }
+function initEmbedTabs() {
+  const tabButtons = document.querySelectorAll(".embed-tab-btn");
+  if (!tabButtons || tabButtons.length === 0) return;
 
-  if (externalStoryBtn) {
-    externalStoryBtn.addEventListener("click", () => {
-      if (isRealStoryUrl) window.open(STORY_URL, "_blank");
+  tabButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      tabButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
     });
-  }
+  });
+
+  window.addEventListener("scroll", () => {
+    const dashboardSec = document.getElementById("dashboard");
+    const storySec = document.getElementById("story");
+    if (!dashboardSec || !storySec) return;
+
+    const scrollY = window.scrollY + 250;
+    const storyTop = storySec.offsetTop;
+    const dashTop = dashboardSec.offsetTop;
+
+    if (scrollY >= storyTop) {
+      tabButtons.forEach(b => {
+        if (b.getAttribute("href") === "#story") b.classList.add("active");
+        else b.classList.remove("active");
+      });
+    } else if (scrollY >= dashTop) {
+      tabButtons.forEach(b => {
+        if (b.getAttribute("href") === "#dashboard") b.classList.add("active");
+        else b.classList.remove("active");
+      });
+    }
+  });
 }
 
 // =============================================================================

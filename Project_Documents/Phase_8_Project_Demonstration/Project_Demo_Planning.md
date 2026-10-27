@@ -4,14 +4,14 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Presenter** | **Aaditya Vyas** |
+| **Author / Presenter** | **Akkshadha Rathore** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Project Demonstration Planning Guide |
 
 ---
 
 ### Demonstration Logistics & Overview
-* **Presenter:** Aaditya Vyas (Lead Engineer & Telemetry Architect).
+* **Presenter:** Akkshadha Rathore (Lead Engineer & Telemetry Architect).
 * **Target Audience:** Project Review Committee, Motorsport Data Analysts, Academic Evaluators, Peer Engineers.
 * **Duration:** 15 Minutes (10 min Live Walkthrough + 5 min Technical Q&A).
 * **Demonstration Environment:**

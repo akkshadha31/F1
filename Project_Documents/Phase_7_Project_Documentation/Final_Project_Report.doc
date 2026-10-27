@@ -24,17 +24,17 @@
 
 <div class='header-card'>
   <table>
-    <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Author:</strong> Aaditya Vyas</td></tr>
+    <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Author:</strong> Akkshadha Rathore</td></tr>
     <tr><td><strong>Deliverable:</strong> Comprehensive Final Project Report</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Domain:</strong> Motorsport Analytics & BI</td><td><strong>Status:</strong> Completed & Verified</td></tr>
   </table>
 </div>
 
 <h1>Formula 1 Race Intelligence – Comprehensive Final Project Report</h1>
-<p><strong>Lead Author:</strong> Aaditya Vyas | <strong>Domain:</strong> Motorsport Telemetry & Business Intelligence</p>
+<p><strong>Lead Author:</strong> Akkshadha Rathore | <strong>Domain:</strong> Motorsport Telemetry & Business Intelligence</p>
 
 <h2>Executive Summary</h2>
-<p>The Formula 1 Race Intelligence platform is an end-to-end data analytics and visual intelligence terminal analyzing 6,464 race outcomes, 3,814 telemetry laps, and 29 world circuits across 17 seasons (2010–2026). Developed by Aaditya Vyas, the platform unites automated Python ETL pipelines, Snowflake star schemas, Tableau Public storytelling, and a zero-dependency HTML5/CSS3/ES6+ web terminal in a strict Formula 1 Black & Red broadcast design system (#0a0a0a, #e10600).</p>
+<p>The Formula 1 Race Intelligence platform is an end-to-end data analytics and visual intelligence terminal analyzing 6,464 race outcomes, 3,814 telemetry laps, and 29 world circuits across 17 seasons (2010–2026). Developed by Akkshadha Rathore, the platform unites automated Python ETL pipelines, Snowflake star schemas, Tableau Public storytelling, and a zero-dependency HTML5/CSS3/ES6+ web terminal in a strict Formula 1 Black & Red broadcast design system (#0a0a0a, #e10600).</p>
 
 <h2>Core Architectural Framework</h2>
 <table>
@@ -57,7 +57,7 @@
 <p>The platform achieved a 95/100 Lighthouse performance rating, 60fps CSS animation framerates, 100% offline double-click reliability, and full WCAG contrast compliance (5.8:1 avg).</p>
 
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Aaditya Vyas &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Akkshadha Rathore &bull; Phase Documentation
 </div>
 </body>
 </html>

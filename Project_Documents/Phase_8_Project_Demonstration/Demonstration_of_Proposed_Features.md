@@ -4,7 +4,7 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Presenter** | **Aaditya Vyas** |
+| **Author / Presenter** | **Akkshadha Rathore** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Feature Demonstration Script & Validation |
 

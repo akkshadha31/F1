@@ -4,7 +4,7 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Lead Architect** | **Aaditya Vyas** |
+| **Author / Lead Architect** | **Akkshadha Rathore** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Architecture Scalability & Future Roadmap |
 

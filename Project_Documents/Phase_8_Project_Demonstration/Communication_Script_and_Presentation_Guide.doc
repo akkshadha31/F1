@@ -24,18 +24,18 @@
 
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Aaditya Vyas</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Akkshadha Rathore</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Presentation Script & Viva Guide</td><td><strong>Format:</strong> Verbatim Narrative</td></tr>
   </table>
 </div>
 
 <h1>Communication Script & Presentation Guide</h1>
-<p>Verbatim spoken presentation script and technical defense Q&A guide for Aaditya Vyas.</p>
+<p>Verbatim spoken presentation script and technical defense Q&A guide for Akkshadha Rathore.</p>
 
 <h2>Verbatim Presentation Script Highlights</h2>
 <ul>
-  <li><strong>Opening:</strong> <em>"Good morning, committee. My name is Aaditya Vyas, and today I present Formula 1 Race Intelligence..."</em></li>
+  <li><strong>Opening:</strong> <em>"Good morning, committee. My name is Akkshadha Rathore, and today I present Formula 1 Race Intelligence..."</em></li>
   <li><strong>Design System:</strong> Explaining the F1 5-light sequence, count-up stats, and strict Black & Red broadcast theme.</li>
   <li><strong>Technical Features:</strong> Highlighting the animated SVG track, live marquee ticker, and 8-panel Tableau dashboard.</li>
   <li><strong>Data Integrity:</strong> Demonstrating real-time driver search, season filters (2010–2026), and Chart.js charts.</li>
@@ -43,7 +43,7 @@
 
 <h2>Viva Defense Q&A Preparation</h2>
 <table>
-  <tr><th>Question</th><th>Strategic Answer (Aaditya Vyas)</th></tr>
+  <tr><th>Question</th><th>Strategic Answer (Akkshadha Rathore)</th></tr>
   <tr>
     <td>Why choose vanilla JS over React or Angular?</td>
     <td>Vanilla JS eliminates heavy bundle overhead, achieves a 95/100 Lighthouse score, and allows instant offline execution by double-clicking index.html.</td>
@@ -59,7 +59,7 @@
 </table>
 
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Aaditya Vyas &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Akkshadha Rathore &bull; Phase Documentation
 </div>
 </body>
 </html>

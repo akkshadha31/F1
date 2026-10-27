@@ -4,7 +4,7 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 18 October 2026 / October 2026 |
-| **Author / Team ID** | Aaditya Vyas |
+| **Author / Team ID** | Akkshadha Rathore |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 8 Marks |
 
@@ -14,20 +14,20 @@
 
 | Sprint | Functional Requirement (Epic) | User Story Number | User Story / Task Description | Story Points | Priority | Owner / Assignee |
 | :---: | :--- | :---: | :--- | :---: | :---: | :--- |
-| **Sprint-1** | Environment & ETL Ingestion | **USN-01** | Develop Python ETL parser (`process_f1_dataset.py`) to ingest 5 sheets (6,464 race results, 3,814 laps, 29 circuits). | 5 | High | Aaditya Vyas |
-| **Sprint-1** | Data Cleaning & Normalization | **USN-02** | Remove placeholder records (`Driver_2`, `Team_2`), correct encoding artifacts, and compute JSON aggregates. | 3 | High | Aaditya Vyas |
-| **Sprint-1** | Design System & Framework Setup | **USN-03** | Construct strict F1 Black & Red CSS design system (`#0a0a0a`, `#e10600`, Orbitron typography, glow borders). | 5 | High | Aaditya Vyas |
-| **Sprint-1** | Start Sequence & Hero Terminal | **USN-04** | Build F1 5-light start sequence preloader ("Lights Out"), count-up stats strip, and split-tone hero layout. | 5 | High | Aaditya Vyas |
-| **Sprint-1** | Animated Circuit Engine | **USN-05** | Implement hardware-accelerated animated SVG race circuit with traveling car dot, S1–S3 markers, and DRS bar. | 4 | Medium | Aaditya Vyas |
-| **Sprint-2** | Tableau Dashboard Construction | **USN-06** | Model and build 8 core analytical panels in Tableau Public (Leaderboard, Reliability, Map, Tyres, Teams, Podiums). | 6 | High | Aaditya Vyas |
-| **Sprint-2** | Tableau Story Chaptering | **USN-07** | Design 7-point interactive narrative story in Tableau Public and implement browser window frame container. | 5 | High | Aaditya Vyas |
-| **Sprint-2** | Interactive Inline Visualizations | **USN-08** | Implement 4 dynamic Chart.js charts (Leaderboard, Constructor points, Tyre compound share, DNF failure causes). | 5 | High | Aaditya Vyas |
-| **Sprint-3** | Driver Grid Search & Filtering | **USN-09** | Build live driver grid with real-time text search, multi-season dropdown (2010–2026), and sorting algorithms. | 5 | High | Aaditya Vyas |
-| **Sprint-3** | Lightbox Artifact Gallery | **USN-10** | Create masonry artifact gallery with zoom lightbox, keyboard navigation (<kbd>←</kbd> / <kbd>→</kbd> / <kbd>Esc</kbd>), and captions. | 3 | Medium | Aaditya Vyas |
-| **Sprint-3** | Terminal Form Validation & Toast | **USN-11** | Build client-side validated contact terminal with animated transmitting state and green/red toast alerts. | 3 | Medium | Aaditya Vyas |
-| **Sprint-4** | Zero-CORS Offline Optimization | **USN-12** | Compile synchronous `data.js` data store ensuring 100% offline double-click readiness without local server. | 4 | High | Aaditya Vyas |
-| **Sprint-4** | End-to-End Testing & Verification | **USN-13** | Run responsive testing across desktop, tablet, and mobile; verify color contrast ratio $ge 4.5:1$ and Lighthouse $ge 90$. | 4 | High | Aaditya Vyas |
-| **Sprint-4** | Project Documentation & Delivery | **USN-14** | Author complete project documentation, reports, presentation scripts, and README guides. | 3 | High | Aaditya Vyas |
+| **Sprint-1** | Environment & ETL Ingestion | **USN-01** | Develop Python ETL parser (`process_f1_dataset.py`) to ingest 5 sheets (6,464 race results, 3,814 laps, 29 circuits). | 5 | High | Akkshadha Rathore |
+| **Sprint-1** | Data Cleaning & Normalization | **USN-02** | Remove placeholder records (`Driver_2`, `Team_2`), correct encoding artifacts, and compute JSON aggregates. | 3 | High | Akkshadha Rathore |
+| **Sprint-1** | Design System & Framework Setup | **USN-03** | Construct strict F1 Black & Red CSS design system (`#0a0a0a`, `#e10600`, Orbitron typography, glow borders). | 5 | High | Akkshadha Rathore |
+| **Sprint-1** | Start Sequence & Hero Terminal | **USN-04** | Build F1 5-light start sequence preloader ("Lights Out"), count-up stats strip, and split-tone hero layout. | 5 | High | Akkshadha Rathore |
+| **Sprint-1** | Animated Circuit Engine | **USN-05** | Implement hardware-accelerated animated SVG race circuit with traveling car dot, S1–S3 markers, and DRS bar. | 4 | Medium | Akkshadha Rathore |
+| **Sprint-2** | Tableau Dashboard Construction | **USN-06** | Model and build 8 core analytical panels in Tableau Public (Leaderboard, Reliability, Map, Tyres, Teams, Podiums). | 6 | High | Akkshadha Rathore |
+| **Sprint-2** | Tableau Story Chaptering | **USN-07** | Design 7-point interactive narrative story in Tableau Public and implement browser window frame container. | 5 | High | Akkshadha Rathore |
+| **Sprint-2** | Interactive Inline Visualizations | **USN-08** | Implement 4 dynamic Chart.js charts (Leaderboard, Constructor points, Tyre compound share, DNF failure causes). | 5 | High | Akkshadha Rathore |
+| **Sprint-3** | Driver Grid Search & Filtering | **USN-09** | Build live driver grid with real-time text search, multi-season dropdown (2010–2026), and sorting algorithms. | 5 | High | Akkshadha Rathore |
+| **Sprint-3** | Lightbox Artifact Gallery | **USN-10** | Create masonry artifact gallery with zoom lightbox, keyboard navigation (<kbd>←</kbd> / <kbd>→</kbd> / <kbd>Esc</kbd>), and captions. | 3 | Medium | Akkshadha Rathore |
+| **Sprint-3** | Terminal Form Validation & Toast | **USN-11** | Build client-side validated contact terminal with animated transmitting state and green/red toast alerts. | 3 | Medium | Akkshadha Rathore |
+| **Sprint-4** | Zero-CORS Offline Optimization | **USN-12** | Compile synchronous `data.js` data store ensuring 100% offline double-click readiness without local server. | 4 | High | Akkshadha Rathore |
+| **Sprint-4** | End-to-End Testing & Verification | **USN-13** | Run responsive testing across desktop, tablet, and mobile; verify color contrast ratio $ge 4.5:1$ and Lighthouse $ge 90$. | 4 | High | Akkshadha Rathore |
+| **Sprint-4** | Project Documentation & Delivery | **USN-14** | Author complete project documentation, reports, presentation scripts, and README guides. | 3 | High | Akkshadha Rathore |
 
 ---
 

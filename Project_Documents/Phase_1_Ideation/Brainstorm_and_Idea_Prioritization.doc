@@ -24,7 +24,7 @@
 
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Aaditya Vyas</td></tr>
+    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Akkshadha Rathore</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Brainstorm & Idea Prioritization Template</td><td><strong>Max Marks:</strong> 4 Marks</td></tr>
   </table>
@@ -36,12 +36,12 @@
 <h2>Step 1: Brainstorm and Idea Listing</h2>
 <table>
   <tr><th>S.No</th><th>Team Member</th><th>Idea / Suggestion</th><th>Category</th><th>Group No.</th></tr>
-  <tr><td>1</td><td>Aaditya Vyas</td><td>Interactive hybrid-era Driver Performance Leaderboard indexing points and win rates across 6,464 race records (Lewis Hamilton 31,147 pts, Max Verstappen 31,126 pts).</td><td>Driver Analytics</td><td>1</td></tr>
-  <tr><td>2</td><td>Aaditya Vyas</td><td>Constructor Championship Supremacy analyzer tracking Red Bull Racing (8,006 pts) and Mercedes AMG (7,790 pts) points trajectories and title progression.</td><td>Team Analytics</td><td>1</td></tr>
-  <tr><td>3</td><td>Aaditya Vyas</td><td>Pirelli compound strategy breakdown examining 3,814 telemetry laps (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) for tire degradation windows.</td><td>Race Strategy</td><td>2</td></tr>
-  <tr><td>4</td><td>Aaditya Vyas</td><td>High-precision Pit Stop Execution analyzer benchmarking team stop times and evaluating undercut/overcut tactical windows (Ferrari record 2.18s avg).</td><td>Strategy & Telemetry</td><td>2</td></tr>
-  <tr><td>5</td><td>Aaditya Vyas</td><td>Global Grand Prix geographic distribution and circuit participation map across 29 worldwide championship circuits (Bahrain 2,168 logged outcomes).</td><td>Circuit Telemetry</td><td>3</td></tr>
-  <tr><td>6</td><td>Aaditya Vyas</td><td>DNF & Mechanical Reliability root-cause classifier analyzing powertrain, suspension, and collision retirements across circuits.</td><td>Reliability Analytics</td><td>4</td></tr>
+  <tr><td>1</td><td>Akkshadha Rathore</td><td>Interactive hybrid-era Driver Performance Leaderboard indexing points and win rates across 6,464 race records (Lewis Hamilton 31,147 pts, Max Verstappen 31,126 pts).</td><td>Driver Analytics</td><td>1</td></tr>
+  <tr><td>2</td><td>Akkshadha Rathore</td><td>Constructor Championship Supremacy analyzer tracking Red Bull Racing (8,006 pts) and Mercedes AMG (7,790 pts) points trajectories and title progression.</td><td>Team Analytics</td><td>1</td></tr>
+  <tr><td>3</td><td>Akkshadha Rathore</td><td>Pirelli compound strategy breakdown examining 3,814 telemetry laps (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) for tire degradation windows.</td><td>Race Strategy</td><td>2</td></tr>
+  <tr><td>4</td><td>Akkshadha Rathore</td><td>High-precision Pit Stop Execution analyzer benchmarking team stop times and evaluating undercut/overcut tactical windows (Ferrari record 2.18s avg).</td><td>Strategy & Telemetry</td><td>2</td></tr>
+  <tr><td>5</td><td>Akkshadha Rathore</td><td>Global Grand Prix geographic distribution and circuit participation map across 29 worldwide championship circuits (Bahrain 2,168 logged outcomes).</td><td>Circuit Telemetry</td><td>3</td></tr>
+  <tr><td>6</td><td>Akkshadha Rathore</td><td>DNF & Mechanical Reliability root-cause classifier analyzing powertrain, suspension, and collision retirements across circuits.</td><td>Reliability Analytics</td><td>4</td></tr>
 </table>
 
 <h2>Step 2: Idea Prioritization</h2>
@@ -54,7 +54,7 @@
 </table>
 
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Aaditya Vyas &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Akkshadha Rathore &bull; Phase Documentation
 </div>
 </body>
 </html>

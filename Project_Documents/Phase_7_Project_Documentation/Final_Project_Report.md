@@ -4,7 +4,7 @@
 | Document Metadata | Details |
 | :--- | :--- |
 | **Project Title** | Formula 1 Race Intelligence: From Global Overview to Championship Success |
-| **Author / Lead Engineer** | **Aaditya Vyas** |
+| **Author / Lead Engineer** | **Akkshadha Rathore** |
 | **Date of Submission** | October 2026 |
 | **Domain** | Motorsport Data Science, Telemetry Analytics & Business Intelligence |
 | **Primary Tools** | Tableau Public, Python 3.13, Snowflake, HTML5, CSS3, Vanilla JS ES6+ |

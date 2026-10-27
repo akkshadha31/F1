@@ -4,7 +4,7 @@
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 15 March 2026 / October 2026 |
-| **Author / Team ID** | Aaditya Vyas |
+| **Author / Team ID** | Akkshadha Rathore |
 | **Project Title** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 3 Marks |
 
@@ -40,4 +40,4 @@
 | **Hardware** | Modern Quad-Core CPU, 8 GB+ RAM, 500 MB Storage | Supports smooth local data processing, Chart.js canvas rendering, and 60fps CSS animations. |
 | **Software & Frameworks** | Node.js v24+, Python 3.13, OpenPyXL, Pillow, Chart.js 4.4, Font Awesome 6 | Lightweight, robust toolchain requiring zero heavy frontend frameworks (React/Angular). |
 | **Data Sources** | `F1 Racing Project Dataset.xlsx` (6,464 rows, 42 columns across 5 sheets) | Real-world historical Grand Prix records, qualifying telemetry, and championship standings. |
-| **Personnel** | **Aaditya Vyas** (Project Lead, Telemetry Engineer & Full-Stack Developer) | End-to-end design, data engineering, UI development, and documentation. |
+| **Personnel** | **Akkshadha Rathore** (Project Lead, Telemetry Engineer & Full-Stack Developer) | End-to-end design, data engineering, UI development, and documentation. |

@@ -1,9 +1,8 @@
 """
 Formula 1 Race Intelligence Dashboard - Flask Application Engine
 ================================================================
-Author / Lead Developer: Aaditya Vyas
-Tableau Profile         : Aaditya vyas
-GitHub Repository       : https://github.com/aditya01141/F1
+Author / Lead Developer: Akkshadha Rathore
+Tableau Profile         : Akkshadha rathore
 Published Workbook      : F1 Race Intelligence Dashboard_2
 Championship Story      : Formula 1 Race Intelligence: From Global Overview to Championship Success
 
@@ -34,16 +33,15 @@ app = Flask(
 # CONFIGURATION SETTINGS & TABLEAU WORKBOOK URLS
 # ==============================================================================
 CONFIG = {
-    "AUTHOR_NAME": "Aaditya Vyas",
-    "AUTHOR_HANDLE": "Aaditya vyas",
-    "GITHUB_REPO": "https://github.com/aditya01141/F1",
+    "AUTHOR_NAME": "Akkshadha Rathore",
+    "AUTHOR_HANDLE": "Akkshadha rathore",
     "WORKBOOK_NAME": "F1 Race Intelligence Dashboard_2",
     "DASHBOARD_SHEET": "FORMULA 1 RACE INTELLIGENCE DASHBOARD",
     "STORY_SHEET": "Formula 1 Race Intelligence: From Global Overview to Championship Success",
     
     # Primary Interactive Tableau URLs
-    "TABLEAU_DASHBOARD_URL": "https://prod-in-a.online.tableau.com/#/site/en25cs3090011-095899494d/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:iid=1",
-    "TABLEAU_STORY_URL": "https://prod-in-a.online.tableau.com/#/site/en25cs3090011-095899494d/views/F1RACEStory/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess?:iid=3",
+    "TABLEAU_DASHBOARD_URL": "https://prod-in-a.online.tableau.com/#/site/en25cs3090015-97b3bc9161/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:iid=2",
+    "TABLEAU_STORY_URL": "https://prod-in-a.online.tableau.com/#/site/en25cs3090015-97b3bc9161/views/F1RACEStory/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess?:iid=1",
     
     # 4 Core KPI Ground Truth
     "KPIS": {
@@ -160,7 +158,6 @@ def index():
         'index.html',
         author_name=CONFIG["AUTHOR_NAME"],
         author_handle=CONFIG["AUTHOR_HANDLE"],
-        github_repo=CONFIG["GITHUB_REPO"],
         workbook_name=CONFIG["WORKBOOK_NAME"],
         tableau_dashboard_url=CONFIG["TABLEAU_DASHBOARD_URL"],
         tableau_story_url=CONFIG["TABLEAU_STORY_URL"],
@@ -183,7 +180,6 @@ def get_config():
         "status": "success",
         "author": CONFIG["AUTHOR_NAME"],
         "tableau_profile": CONFIG["AUTHOR_HANDLE"],
-        "github_repo": CONFIG["GITHUB_REPO"],
         "workbook_name": CONFIG["WORKBOOK_NAME"],
         "tableau_dashboard_url": CONFIG["TABLEAU_DASHBOARD_URL"],
         "tableau_story_url": CONFIG["TABLEAU_STORY_URL"],
@@ -252,7 +248,6 @@ if __name__ == '__main__':
     print(f"🏎️ FORMULA 1 RACE INTELLIGENCE DASHBOARD")
     print(f"   Lead Architect : {CONFIG['AUTHOR_NAME']}")
     print(f"   Tableau Profile: {CONFIG['AUTHOR_HANDLE']}")
-    print(f"   GitHub Repo    : {CONFIG['GITHUB_REPO']}")
     print(f"   Listening on   : http://127.0.0.1:{port}")
     print(f"================================================================")
     app.run(host='0.0.0.0', port=port, debug=True)

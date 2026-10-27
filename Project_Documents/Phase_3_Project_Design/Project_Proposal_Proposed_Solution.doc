@@ -24,7 +24,7 @@
 
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Aaditya Vyas</td></tr>
+    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Akkshadha Rathore</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Project Proposal Template</td><td><strong>Max Marks:</strong> 3 Marks</td></tr>
   </table>
@@ -52,11 +52,11 @@
   <tr><td>Hardware</td><td>Computing Resources & Memory</td><td>Standard Quad-Core CPU, 8 GB RAM, 1 GB Disk</td></tr>
   <tr><td>Software Libraries</td><td>Scripting & Visualization</td><td>Python 3.13, OpenPyXL, Node.js, Chart.js, Font Awesome 6</td></tr>
   <tr><td>Dataset</td><td>Formula 1 Project Data</td><td>F1 Racing Project Dataset.xlsx (6,464 outcomes, 3,814 laps, 29 circuits)</td></tr>
-  <tr><td>Personnel</td><td>Lead Engineer & Author</td><td><strong>Aaditya Vyas</strong> (Full-Stack Data Engineering & UI/UX Design)</td></tr>
+  <tr><td>Personnel</td><td>Lead Engineer & Author</td><td><strong>Akkshadha Rathore</strong> (Full-Stack Data Engineering & UI/UX Design)</td></tr>
 </table>
 
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Aaditya Vyas &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Akkshadha Rathore &bull; Phase Documentation
 </div>
 </body>
 </html>

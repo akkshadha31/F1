@@ -121,11 +121,6 @@
             </span>
             <span class="author-sep">•</span>
             <span class="author-badge">
-              <i class="fa-brands fa-github"></i> GitHub:
-              <a href="{{ github_repo }}" target="_blank" rel="noopener">aditya01141/F1</a>
-            </span>
-            <span class="author-sep">•</span>
-            <span class="author-badge">
               <i class="fa-solid fa-layer-group"></i> Workbook: <strong>{{ workbook_name }}</strong>
             </span>
           </div>
@@ -258,43 +253,43 @@
             <h2 class="project-title">Transforming F1 Telemetry Into Championship Intelligence</h2>
             
             <p class="project-desc-p">
-              Elite motorsport is decided across fractions of a second, where track conditions, power unit thermal cycles, and aerodynamic downforce intersect. Translating dense timing loops and telemetry streams into decisive championship strategy demands a robust analytical architecture.
+              In top-tier Formula 1 racing, the difference between pole position and midfield obscurity is measured in thousandths of a second. Millions of data points flow from onboard vehicle sensors, pit-wall telemetry streams, and race control feeds every Grand Prix weekend. Turning this avalanche of raw data into predictive racecraft requires advanced analytics and visual clarity.
             </p>
             <p class="project-desc-p">
-              Engineered by <strong>{{ author_name }}</strong>, this platform unifies 17 competitive seasons (2010–2026), indexing 6,464 race outcomes across 29 world circuits. By synchronizing multi-sheet relational modeling in Tableau with a responsive Python Flask service layer, the system empowers analysts across 5 core telemetry pillars:
+              Spearheaded and engineered by <strong>{{ author_name }}</strong>, the <strong>Formula 1 Race Intelligence Platform</strong> integrates 17 consecutive championship seasons (2010–2026), capturing 6,464 race outcomes across 29 international circuits. Powered by Tableau’s logical data relationship engine and an asynchronous Python Flask web service, this dashboard bridges raw telemetry with high-level championship decisions across 5 analytical pillars:
             </p>
 
             <!-- 5 Core Pillars List -->
             <div class="project-features">
               <div class="project-feature-item">
-                <div class="feature-icon-box"><i class="fa-solid fa-globe"></i></div>
+                <div class="feature-icon-box"><i class="fa-solid fa-earth-americas"></i></div>
                 <div class="feature-info">
-                  <h4>1. Global Race Overview</h4>
-                  <p>Comprehensive spatial analysis across all 29 Grand Prix host circuits mapping geographic race volume and driver origin distributions.</p>
+                  <h4>1. Global Race Footprint & Circuit Mapping</h4>
+                  <p>Geospatial telemetry projection spanning 29 Grand Prix circuits worldwide, analyzing historical race volume concentration led by Bahrain (2,168 logged outcomes), the United States (400), Monaco (328), and Spain (328).</p>
                 </div>
               </div>
 
               <div class="project-feature-item">
-                <div class="feature-icon-box"><i class="fa-solid fa-user-astronaut"></i></div>
+                <div class="feature-icon-box"><i class="fa-solid fa-stopwatch-20"></i></div>
                 <div class="feature-info">
-                  <h4>2. Driver Performance Metrics</h4>
-                  <p>Qualifying pace deltas, race pace progression, dynamic Top-N parameter scoring, and podium conversion ratios.</p>
+                  <h4>2. Driver Performance & Pace Telemetry</h4>
+                  <p>Single-lap qualifying deltas, apex speeds, and race pace progression with dynamic Top-N scoring parameter controls (5–20 drivers) highlighting Hamilton (31,147 pts), Verstappen (31,126 pts), and Leclerc (27,673 pts).</p>
                 </div>
               </div>
 
               <div class="project-feature-item">
-                <div class="feature-icon-box"><i class="fa-solid fa-trophy"></i></div>
+                <div class="feature-icon-box"><i class="fa-solid fa-flag-checkered"></i></div>
                 <div class="feature-info">
-                  <h4>3. Constructor Championship Battle</h4>
-                  <p>Multi-season constructor trajectory highlighting Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across hybrid regulations.</p>
+                  <h4>3. Constructor Championship Supremacy</h4>
+                  <p>Longitudinal points trajectories and dominance cycles across multiple engine regulation shifts, tracking the epic constructor battle between Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts).</p>
                 </div>
               </div>
 
               <div class="project-feature-item">
-                <div class="feature-icon-box"><i class="fa-solid fa-compact-disc"></i></div>
+                <div class="feature-icon-box"><i class="fa-solid fa-circle-notch"></i></div>
                 <div class="feature-info">
-                  <h4>4. Pit Stop & Tyre Strategy Analysis</h4>
-                  <p>Pirelli compound distribution across 4 specifications (Soft, Medium, Hard, Intermediate) and stint degradation modeling.</p>
+                  <h4>4. Pit Stop & Tyre Degradation Dynamics</h4>
+                  <p>Compound allocation analytics and stint longevity across Pirelli\'s 4 core specifications: Soft (31.52% of logged stint laps), Medium (30.78%), Hard (30.36%), and Intermediate (7.34%), quantifying tire degradation curves.</p>
                 </div>
               </div>
 
@@ -302,7 +297,7 @@
                 <div class="feature-icon-box"><i class="fa-solid fa-triangle-exclamation"></i></div>
                 <div class="feature-info">
                   <h4>5. Reliability & DNF Diagnostics</h4>
-                  <p>Mechanical vs. accident attrition categorization (Engine, Collision, Transmission, Suspension, Brakes) and Safety Car impacts.</p>
+                  <p>Root-cause mechanical retirement analytics (Power Unit, Transmission, Brakes, Suspension) versus accident attrition, confirming modern hybrid engineering benchmarks with a 91.4% classified grid completion rate.</p>
                 </div>
               </div>
             </div>
@@ -368,40 +363,40 @@
         <div class="dimensions-grid">
           <!-- Card 1 -->
           <div class="dimension-card">
-            <div class="dimension-icon-tile"><i class="fa-solid fa-route"></i></div>
-            <h3 class="dimension-title">Circuit Analysis</h3>
+            <div class="dimension-icon-tile"><i class="fa-solid fa-map-location-dot"></i></div>
+            <h3 class="dimension-title">Circuit Fingerprinting</h3>
             <p class="dimension-desc">
-              Track-by-track spatial and telemetry fingerprinting across 29 world circuits from Monza's temple of speed to Bahrain's desert braking zones.
+              Comprehensive geospatial track profiling across 29 international circuits, contrasting high-downforce street circuits (Monaco, Singapore) with ultra-high-speed power temples (Monza, Spa-Francorchamps).
             </p>
-            <div class="dimension-stat">→ 29 HOST CIRCUITS MAPPED</div>
+            <div class="dimension-stat">→ 29 GLOBAL CIRCUITS INDEXED</div>
           </div>
 
           <!-- Card 2 -->
           <div class="dimension-card">
-            <div class="dimension-icon-tile"><i class="fa-solid fa-stopwatch-20"></i></div>
-            <h3 class="dimension-title">Lap Time Breakdown</h3>
+            <div class="dimension-icon-tile"><i class="fa-solid fa-microchip"></i></div>
+            <h3 class="dimension-title">Sector Telemetry Splits</h3>
             <p class="dimension-desc">
-              Sector-by-sector time analysis (S1, S2, S3) for every driver across qualifying, practice, and race sessions at millisecond precision.
+              Microsecond-precision timing telemetry dissecting Sector 1, Sector 2, and Sector 3 splits, apex cornering speeds, and qualifying delta margins down to thousandths of a second.
             </p>
-            <div class="dimension-stat">→ MILLISECOND PRECISION & DELTAS</div>
+            <div class="dimension-stat">→ MILLISECOND DELTA PRECISION</div>
           </div>
 
           <!-- Card 3 -->
           <div class="dimension-card">
-            <div class="dimension-icon-tile"><i class="fa-solid fa-compact-disc"></i></div>
-            <h3 class="dimension-title">Tyre Strategy</h3>
+            <div class="dimension-icon-tile"><i class="fa-solid fa-circle-notch"></i></div>
+            <h3 class="dimension-title">Pirelli Compound Dynamics</h3>
             <p class="dimension-desc">
-              Soft, Medium, Hard, and Intermediate compound degradation curves, stint length models, and optimal pit window calculations.
+              Stint degradation modeling and compound usage share across 4 tyre compounds: Soft (31.52%), Medium (30.78%), Hard (30.36%), and Intermediate (7.34%) under shifting track temperatures.
             </p>
-            <div class="dimension-stat">→ 4 COMPOUNDS IN PLAY</div>
+            <div class="dimension-stat">→ 4 TIRE COMPOUNDS IN PLAY</div>
           </div>
 
           <!-- Card 4 -->
           <div class="dimension-card">
-            <div class="dimension-icon-tile"><i class="fa-solid fa-users-viewfinder"></i></div>
-            <h3 class="dimension-title">Driver Head-to-Head</h3>
+            <div class="dimension-icon-tile"><i class="fa-solid fa-users-rays"></i></div>
+            <h3 class="dimension-title">Driver Head-to-Head Matrix</h3>
             <p class="dimension-desc">
-              Compare teammates and rivals across qualifying deltas, race pace, podiums, DNFs, and dynamic Top-N leaderboard scoring.
+              Dynamic Top-N leaderboard comparison evaluating qualifying conversion, podium frequency, and points-per-race trajectories across teammates and championship rivals.
             </p>
             <div class="dimension-stat">→ TOP N DYNAMIC FILTERING</div>
           </div>
@@ -409,9 +404,9 @@
           <!-- Card 5 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-chart-line"></i></div>
-            <h3 class="dimension-title">Points Progression</h3>
+            <h3 class="dimension-title">Championship Points Progression</h3>
             <p class="dimension-desc">
-              Track multi-season championship point trajectories across 17 seasons (2010–2026), identifying pivotal title-deciding races.
+              Longitudinal multi-season points accumulation tracking Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across 17 competitive seasons (2010–2026).
             </p>
             <div class="dimension-stat">→ 17 SEASONS (2010–2026)</div>
           </div>
@@ -419,11 +414,11 @@
           <!-- Card 6 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-triangle-exclamation"></i></div>
-            <h3 class="dimension-title">Reliability & DNF Diagnostics</h3>
+            <h3 class="dimension-title">Reliability & Attrition Diagnostics</h3>
             <p class="dimension-desc">
-              Quantify mechanical versus accident retirements and track how Virtual and physical Safety Cars shaped race outcomes.
+              Categorical failure analysis classifying power unit, collision, transmission, suspension, and brake failures, benchmarking modern hybrid grid reliability at 91.4% completion.
             </p>
-            <div class="dimension-stat">→ DNF REASON & ATTRITION DIAGNOSTICS</div>
+            <div class="dimension-stat">→ 91.4% CLASSIFIED COMPLETION</div>
           </div>
         </div>
       </div>
@@ -994,7 +989,7 @@
                 <a href="{{ tableau_dashboard_url }}" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Tableau Dashboard">
                   <i class="fa-solid fa-chart-column"></i>
                 </a>
-                <a href="{{ github_repo }}" target="_blank" rel="noopener" class="social-circle-btn" aria-label="GitHub Repository">
+                <a href="https://github.com/akkshadha31/F1" target="_blank" rel="noopener" class="social-circle-btn" aria-label="GitHub Repository">
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-circle-btn" aria-label="LinkedIn Profile">
@@ -1133,6 +1128,14 @@
   <!-- Core Data Script (Provides F1_DATA object with zero-CORS local compatibility) -->
   <script src="{{ url_for('static', filename='js/data.js') }}"></script>
 
+  <script>
+    window.TABLEAU_CONFIG = {
+      dashboardUrl: "{{ tableau_dashboard_url }}",
+      storyUrl: "{{ tableau_story_url }}",
+      dashboardEmbedUrl: "{{ tableau_dashboard_embed_url }}",
+      storyEmbedUrl: "{{ tableau_story_embed_url }}"
+    };
+  </script>
   <!-- Application Logic -->
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>

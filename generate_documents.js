@@ -36,7 +36,7 @@ function createWordDoc(title, bodyContent) {
 <body>
 ${bodyContent}
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Project Author: Aaditya Vyas &bull; Confidential & Academic Project Deliverable
+  Formula 1 Race Intelligence &bull; Project Author: Akkshadha Rathore &bull; Confidential & Academic Project Deliverable
 </div>
 </body>
 </html>`;
